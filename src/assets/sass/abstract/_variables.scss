@@ -1,0 +1,69 @@
+/* Typography */
+$bodyFont: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+$headingFont: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+$leadFont: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+$blockFont: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+$codeFont: 'Victor Mono', source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+$light: 200;
+$regular: 400;
+$bold: 700;
+$extraBold: 900;
+
+$baseFontSize: 16px;
+
+/* Colors */
+$black: #000;
+$gray9: rgb(25, 25, 25);
+$gray8: rgb(50, 50, 50);
+$gray7: rgb(100, 100, 100);
+$gray6: rgb(125, 125, 125);
+$gray5: rgb(150, 150, 150);
+$gray4: rgb(175, 175, 175);
+$gray3: rgb(200, 200, 200);
+$gray2: rgb(225, 225, 225);
+$gray1: rgb(240, 240, 240);
+$white: #fff;
+
+$red: #ff0000;
+$lightRed: lighten($red, 40%);
+$darkRed: darken($red, 27%);
+
+$orange: #ff8c00;
+$lightOrange: lighten($orange, 40%);
+$darkOrange: darken($orange, 27%);
+
+$yellow: #fff200;
+$lightYellow: lighten($yellow, 40%);
+$darkYellow: darken($yellow, 32%);
+
+$lime: #c7ef36;
+$lightLime: lighten($lime, 30%);
+$darkLime: darken($lime, 40%);
+
+$green: #23a31a;
+$lightGreen: lighten($green, 55%);
+$darkGreen: darken($green, 20%);
+
+$teal: #36d6d3;
+$lightTeal: lighten($teal, 40%);
+$darkTeal: darken($teal, 32%);
+
+$blue: #00aeff;
+$lightBlue: lighten($blue, 40%);
+$darkBlue: darken($blue, 27%);
+
+$cobalt: #2a5ee3;
+$lightCobalt: lighten($cobalt, 40%);
+$darkCobalt: darken($cobalt, 25%);
+
+$purple: #612ae3;
+$lightPurple: lighten($purple, 40%);
+$darkPurple: darken($purple, 27%);
+
+$violet: #c54ddd;
+$lightViolet: lighten($violet, 35%);
+$darkViolet: darken($violet, 40%);
+
+$brown: #764e32;
+$lightBrown: lighten($brown, 45%);
+$darkBrown: darken($brown, 12%);
