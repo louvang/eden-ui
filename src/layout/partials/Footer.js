@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom';
+
 function Footer() {
   return (
     <footer>
-      <div className="container mw-1280 flex jc-sb">
+      <div className="container mw-1440 flex jc-sb">
         <div className="footer-main">
           <div className="logo-heading logo-heading--mini">
             <div className="mini-logo-heading">Eden UI</div>
@@ -20,9 +22,15 @@ function Footer() {
           <div className="footer-nav__col">
             <div className="footer-nav__col-title">Links</div>
             <ul className="no-bullets-list">
-              <li>Docs</li>
-              <li>Customization</li>
-              <li>Templates</li>
+              <li>
+                <Link to="/docs">Docs</Link>
+              </li>
+              <li>
+                <Link to="/customization">Customization</Link>
+              </li>
+              <li>
+                <Link to="/templates">Templates</Link>
+              </li>
             </ul>
           </div>
 

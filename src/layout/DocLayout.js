@@ -6,9 +6,11 @@ function DocLayout({ page }) {
   return (
     <div className="layout">
       <Header />
-      <div className="content">
-        <DocSidebar />
-        <main>{page}</main>
+      <div class="container">
+        <div className="content content--doc">
+          <DocSidebar />
+          <main>{page}</main>
+        </div>
       </div>
       <Footer />
     </div>

@@ -1,0 +1,41 @@
+@import '../../assets/sass/abstract/variables';
+
+.sidebar-title {
+  color: $gray7;
+  font-size: 0.75rem;
+  font-weight: $bold;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar-section {
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-section:last-child {
+  margin-bottom: 0;
+}
+
+ul.sidebar-nav-list {
+  margin: 0;
+  padding: 0;
+  li {
+    padding: 0rem;
+    margin-left: 1rem;
+    border-left: 1px solid $gray3;
+  }
+
+  a {
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    display: block;
+  }
+
+  a:hover {
+    background-color: $lightDustyPink;
+    border-top-right-radius: 0.325rem;
+    border-bottom-right-radius: 0.325rem;
+    border-left: 2px solid $dustyPink;
+    text-decoration: underline;
+  }
+}

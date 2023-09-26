@@ -9,6 +9,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  color: $dustyPink;
+}
+
+a:hover {
+  color: $darkDustyPink;
+}
+
 code {
   font-family: $codeFont;
 }
@@ -16,16 +24,35 @@ code {
 .content {
   width: 100%;
   margin: 2rem auto;
-  max-width: 1280px;
+  max-width: 1440px;
+  // padding: 0 2rem;
 }
 
 .container {
   width: 100%;
   margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.mw-1440 {
+  max-width: 1440px;
 }
 
 .mw-1280 {
   max-width: 1280px;
+}
+
+.content--doc {
+  display: flex;
+  gap: 2rem;
+
+  .doc-sidebar {
+    width: calc(20% - 1rem);
+  }
+
+  main {
+    width: calc(80% - 1rem);
+  }
 }
 
 .flex {
@@ -56,7 +83,21 @@ header {
   display: flex;
   align-items: center;
   border-bottom: 1px solid $gray4;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
+
+  .container {
+    padding: 0;
+  }
+}
+
+.header-nav {
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 .logo {
@@ -73,6 +114,15 @@ header {
   font-weight: $bold;
   font-size: 2rem;
   letter-spacing: -2px;
+
+  a {
+    text-decoration: none;
+    color: $black;
+  }
+
+  a:hover {
+    color: $black;
+  }
 }
 
 .header-nav {
@@ -112,6 +162,10 @@ footer {
   color: $white;
   padding: 2rem;
 
+  .container {
+    padding: 0;
+  }
+
   a {
     color: $lightPurple;
   }
@@ -130,7 +184,7 @@ footer {
   gap: 3rem;
   
   &__col {
-    width: 150px;
+    width: 200px;
   }
 
   &__col-title {
@@ -143,6 +197,8 @@ footer {
   gap: 1rem;
   flex-wrap: wrap;
 }
+
+
 
 .alert {
   color: #4d4d4d;

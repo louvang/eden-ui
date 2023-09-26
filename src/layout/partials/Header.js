@@ -6,10 +6,14 @@ import logo from '../../assets/images/svgs/logo.svg';
 function Header() {
   return (
     <header>
-      <div class="container mw-1280 flex">
+      <div className="container mw-1440 flex">
         <div className="logo">
-          <img src={logo} className="logo-img" alt="Eden UI" />
-          <div className="logo-heading">Eden UI</div>
+          <Link to="/">
+            <img src={logo} className="logo-img" alt="Eden UI" />
+          </Link>
+          <div className="logo-heading">
+            <Link to="/">Eden UI</Link>
+          </div>
         </div>
 
         <nav className="header-nav">
@@ -17,8 +21,12 @@ function Header() {
             <li>
               <Link to="/docs">Docs</Link>
             </li>
-            <li>Customization</li>
-            <li>Templates</li>
+            <li>
+              <Link to="/customization">Customization</Link>
+            </li>
+            <li>
+              <Link to="/templates">Templates</Link>
+            </li>
           </ul>
 
           <ul className="inline-list">
