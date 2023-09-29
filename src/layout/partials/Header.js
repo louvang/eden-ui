@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { FaGithubAlt } from 'react-icons/fa';
 
-import logo from '../../assets/images/svgs/logo.svg';
+import logo from '../../assets/images/svgs/lettermark.svg';
 
 function Header() {
   return (
