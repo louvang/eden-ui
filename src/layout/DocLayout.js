@@ -5,14 +5,18 @@ import Footer from './partials/Footer';
 function DocLayout({ page }) {
   return (
     <div className="layout">
-      <Header />
-      <div class="container">
-        <div className="content content--doc">
-          <DocSidebar />
-          <main>{page}</main>
+      <div class="top-container">
+        <Header />
+        <div class="container">
+          <div className="content content--doc">
+            <DocSidebar />
+            <main>{page}</main>
+          </div>
         </div>
       </div>
-      <Footer />
+      <div class="bot-container">
+        <Footer />
+      </div>
     </div>
   );
 }

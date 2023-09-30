@@ -8,6 +8,7 @@ $light: 200;
 $regular: 400;
 $bold: 700;
 $extraBold: 900;
+$lineHeight: 1.5;
 
 $baseFontSize: 16px;
 
@@ -24,9 +25,9 @@ $gray2: rgb(225, 225, 225);
 $gray1: rgb(240, 240, 240);
 $white: #fff;
 
-$dustyPink: #c44092;
-$lightDustyPink: #fcf2f8;
-$darkDustyPink: #7e3060; 
+$magenta: #c44092;
+$lightMagenta: #fcf2f8;
+$darkMagenta: #7e3060; 
 
 $red: #ff0000;
 $lightRed: lighten($red, 40%);
@@ -52,11 +53,11 @@ $teal: #36d6d3;
 $lightTeal: lighten($teal, 40%);
 $darkTeal: darken($teal, 32%);
 
-$blue: #00aeff;
+$blue: #0084ff;
 $lightBlue: lighten($blue, 40%);
 $darkBlue: darken($blue, 27%);
 
-$cobalt: #2a5ee3;
+$cobalt: #2a52e3;
 $lightCobalt: lighten($cobalt, 40%);
 $darkCobalt: darken($cobalt, 25%);
 

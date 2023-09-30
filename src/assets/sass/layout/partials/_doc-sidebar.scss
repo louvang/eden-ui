@@ -1,4 +1,10 @@
-@import '../../assets/sass/abstract/variables';
+.doc-sidebar {
+  max-height: calc(100vh - 80px);
+  overflow: auto;
+  position: sticky;
+  top: 72px;
+  padding: 1rem 0;
+}
 
 .sidebar-title {
   color: $gray7;
@@ -32,10 +38,10 @@ ul.sidebar-nav-list {
   }
 
   a:hover {
-    background-color: $lightDustyPink;
+    background-color: $lightMagenta;
     border-top-right-radius: 0.325rem;
     border-bottom-right-radius: 0.325rem;
-    border-left: 2px solid $dustyPink;
+    border-left: 2px solid $magenta;
     text-decoration: underline;
   }
 }

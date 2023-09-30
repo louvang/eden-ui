@@ -1,0 +1,19 @@
+.inline-list {
+  padding: 0;
+  margin: 0 0 0 2rem;
+
+  li {
+    display: inline;
+    margin: 0 1rem 0 0;
+  }
+
+  li:last-child {
+    margin-right: 0;
+  }
+}
+
+.no-bullets-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

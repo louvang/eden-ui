@@ -4,9 +4,11 @@ import Footer from './partials/Footer';
 function Layout({ page }) {
   return (
     <div className="layout">
-      <Header />
-      <div className="content">
-        <main>{page}</main>
+      <div className="top-container">
+        <Header />
+        <div className="content">
+          <main>{page}</main>
+        </div>
       </div>
       <Footer />
     </div>

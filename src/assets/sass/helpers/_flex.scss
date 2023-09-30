@@ -1,0 +1,28 @@
+.flex {
+  display: flex;
+}
+
+.fg-1 {
+  gap: 1rem;
+}
+
+.fg-2 {
+  gap: 2rem;
+}
+
+.fg-5 {
+  gap: 0.5rem;
+}
+
+.fg-15 {
+  gap: 1.5rem;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.flex-vcenter {
+  display: flex !important;
+  align-items: center !important;
+}

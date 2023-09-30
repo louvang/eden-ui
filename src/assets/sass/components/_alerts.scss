@@ -1,0 +1,81 @@
+.alert {
+  color: #4d4d4d;
+  background-color: #f5f5f5;
+  border: 2px solid #4d4d4d;
+  width: 300px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  &--magenta {
+    color: $darkMagenta;
+    background-color: $lightMagenta;
+    border: 2px solid $darkMagenta;
+  }
+
+  &--red {
+    color: $darkRed;
+    background-color: $lightRed;
+    border: 2px solid $darkRed;
+  }
+
+  &--orange {
+    color: $darkOrange;
+    background-color: $lightOrange;
+    border: 2px solid $darkOrange;
+  }
+
+  &--yellow {
+    color: $darkYellow;
+    background-color: $lightYellow;
+    border: 2px solid $darkYellow;
+  }
+
+  &--lime {
+    color: $darkLime;
+    background-color: $lightLime;
+    border: 2px solid $darkLime;
+  }
+
+  &--green {
+    color: $darkGreen;
+    background-color: $lightGreen;
+    border: 2px solid $darkGreen;
+  }
+
+  &--teal {
+    color: $darkTeal;
+    background-color: $lightTeal;
+    border: 2px solid $darkTeal;
+  }
+
+  &--blue {
+    color: $darkBlue;
+    background-color: $lightBlue;
+    border: 2px solid $darkBlue;
+  }
+
+  &--cobalt {
+    color: $darkCobalt;
+    background-color: $lightCobalt;
+    border: 2px solid $darkCobalt;
+  }
+
+  &--purple {
+    color: $darkPurple;
+    background-color: $lightPurple;
+    border: 2px solid $darkPurple;
+  }
+
+  &--violet {
+    color: $darkViolet;
+    background-color: $lightViolet;
+    border: 2px solid $darkViolet;
+  }
+
+  &--brown {
+    color: $darkBrown;
+    background-color: $lightBrown;
+    border: 2px solid $darkBrown;
+  }
+}

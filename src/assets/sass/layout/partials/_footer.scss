@@ -1,0 +1,35 @@
+footer {
+  background-color: $gray9;
+  color: $white;
+  padding: 2rem;
+  width: 100%;
+
+  .container {
+    padding: 0;
+  }
+
+  a {
+    color: $lightPurple;
+  }
+}
+
+.logo-heading--mini {
+  font-size: 1.75rem;
+}
+
+.footer-main {
+  width: 30%;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 3rem;
+  
+  &__col {
+    width: 200px;
+  }
+
+  &__col-title {
+    font-weight: $bold;
+  }
+}
